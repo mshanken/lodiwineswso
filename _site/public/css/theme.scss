@@ -8,10 +8,134 @@
 // Load core variables and mixins
 // --------------------------------------------------
 
+/*!
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
 @import "custom";
-@import "_vendor/bootstrap";
+@import "bower_components/bootstrap/scss/variables";
 @import "bower_components/bootstrap/scss/mixins";
+
+// Reset and dependencies
+@import "bower_components/bootstrap/scss/normalize";
+@import "bower_components/bootstrap/scss/print";
+
+// Core CSS
+@import "bower_components/bootstrap/scss/reboot";
+@import "bower_components/bootstrap/scss/type";
+@import "bower_components/bootstrap/scss/images";
+// @import "bower_components/bootstrap/scss/code";
+@import "bower_components/bootstrap/scss/grid";
+// @import "bower_components/bootstrap/scss/tables";
+// @import "bower_components/bootstrap/scss/forms";
+// @import "bower_components/bootstrap/scss/buttons";
+
+// Components
+@import "bower_components/bootstrap/scss/transitions";
+// @import "bower_components/bootstrap/scss/dropdown";
+// @import "bower_components/bootstrap/scss/button-group";
+// @import "bower_components/bootstrap/scss/input-group";
+// @import "bower_components/bootstrap/scss/custom-forms";
+// @import "bower_components/bootstrap/scss/nav";
+// @import "bower_components/bootstrap/scss/navbar";
+@import "bower_components/bootstrap/scss/card";
+// @import "bower_components/bootstrap/scss/breadcrumb";
+// @import "bower_components/bootstrap/scss/pagination";
+@import "bower_components/bootstrap/scss/badge";
+@import "bower_components/bootstrap/scss/jumbotron";
+// @import "bower_components/bootstrap/scss/alert";
+// @import "bower_components/bootstrap/scss/progress";
+// @import "bower_components/bootstrap/scss/media";
+// @import "bower_components/bootstrap/scss/list-group";
+// @import "bower_components/bootstrap/scss/responsive-embed";
+// @import "bower_components/bootstrap/scss/close";
+
+// Components w/ JavaScript
+// @import "bower_components/bootstrap/scss/modal";
+// @import "bower_components/bootstrap/scss/tooltip";
+// @import "bower_components/bootstrap/scss/popover";
+// @import "bower_components/bootstrap/scss/carousel";
+
+// Utility classes
+@import "bower_components/bootstrap/scss/utilities";
 
 //
 // Custom style starts here
 // --------------------------------------------------
+// 
+.lead{ font-family: $font-family-serif; }
+.vertical-divider{
+	clear: both;
+	position: relative;
+}
+
+.vertical-divider:after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.card{ margin-top: 20px; }
+.card a { font-weight: 700; color: #333;}
+.card img { margin-bottom: 25px; }
+@include media-breakpoint-down(sm) {
+	.vertical-divider > .col-md-6:not(:first-child):after{
+		background: #666;
+		bottom: 0;
+		content: " ";
+		margin-left: -15px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 1px;
+	}
+}
+@include media-breakpoint-between(md, lg) {
+	.vertical-divider > .col-md-6:not(:nth-child(odd)):before{
+		background: #666;
+		bottom: 0;
+		content: " ";
+		margin-left: -15px;
+		position: absolute;
+		top: 0;
+		width: 1px;
+	}
+	.vertical-divider > .col-md-6:not(:first-child,:nth-child(2)):after{
+		background: #666;
+		bottom: 0;
+		content: " ";
+		margin-left: -15px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 1px;
+	}
+	
+}
+@include media-breakpoint-up(xl) {
+	.vertical-divider > .col-xl-4:not(:first-child,:nth-child(4)):before{
+		background: #666;
+		bottom: 0;
+		content: " ";
+		margin-left: -15px;
+		position: absolute;
+		top: 0;
+		width: 1px;
+	}
+	.vertical-divider > .col-xl-4:not(:first-child,:nth-child(2),:nth-child(3)):after{
+		background: #666;
+		bottom: 0;
+		content: " ";
+		margin-left: -15px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 1px;
+	}
+	
+}
