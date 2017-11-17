@@ -2,44 +2,44 @@
 /* TEAM */
 
                             
-Your title: Your name.
+Your title: Sr. Front End Developer.
 
                             
-Site: email, link to a contact form, etc.
+Site: dev@mshanken.com, www.mshanken.com.
 
                             
-Twitter: your Twitter username.
+Twitter: @mshanken.
 
                             
 Location: City, Country.
 
                          
                  
-                        [...]
+                        [New York, US]
 						
 
 							
 /* THANKS */
 
 							
-Name: name or url
+Name: Lodi Wines For The Holidays
 
 						
                  
-                        [...]
+                        
                         
 
                             
 /* SITE */
 
                             
-Last update: YYYY/MM/DD 
+Last update: 2017/11/16 
 
                             
-Standards: HTML5, CSS3,..
+Standards: HTML5, CSS3
 
                             
-Components: Modernizr, jQuery, etc.
+Components: bootstrap 4.
 
                             
-Software: Software used for the development
+Software: HTML,SASS, HarpJS
