@@ -2,7 +2,7 @@
     <div class="row card-body">
         <div class="col-8 col-lg-9 col-xl-8 card-body align-self-center">
             <a href="http://weibel.com"><img src="images/WeibelLogo.png" alt="Weibel" class="img-fluid"></a>
-            <p class="card-text text-center">Happy Holidays from Weibel. Enjoy 30% off fine wines and sparklings with promo code CHEERS2017.</p>
+            <p class="card-text text-center">Nobody celebrates as well as Weibel. Enjoy 30% off fine wines and sparklings with promo code CHEERS2017. Happy Holidays from Weibel.</p>
 
             <p class="text-center">[Shop Now](http://weibel.com)</p>
         </div>
