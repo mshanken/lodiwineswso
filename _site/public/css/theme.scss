@@ -83,6 +83,7 @@
 .card{ margin-top: 20px; }
 .card a { font-weight: 700; color: #333;}
 .card img { margin-bottom: 25px; }
+.vab { position: absolute; bottom: 0; width: 72.66667%; padding: 0 15px }
 @include media-breakpoint-down(sm) {
 	.vertical-divider > .col-md-6:not(:first-child):after{
 		background: #666;
@@ -118,7 +119,11 @@
 	.mt-md-3 {
 	    margin-top: 6rem!important;
 	}
+	.ve{ visibility: hidden; }
 	
+}
+@include media-breakpoint-up(lg) {
+	.vab{ width: 80%; }
 }
 @include media-breakpoint-up(xl) {
 	.vertical-divider > .col-xl-4:not(:first-child,:nth-child(4)):before{
@@ -143,4 +148,6 @@
 	.mt-md-3 {
 	    margin-top: 6rem!important;
 	}
+	.vab{ width: 72.66667%; }
+	.ve{ visibility: hidden; }
 }
