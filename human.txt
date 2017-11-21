@@ -1,0 +1,45 @@
+# http://humanstxt.org/
+/* TEAM */
+
+                            
+Your title: Sr. Front End Developer.
+
+                            
+Site: dev@mshanken.com, www.mshanken.com.
+
+                            
+Twitter: @mshanken.
+
+                            
+Location: City, Country.
+
+                         
+                 
+                        [New York, US]
+						
+
+							
+/* THANKS */
+
+							
+Name: Lodi Wines For The Holidays
+
+						
+                 
+                        
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2017/11/16 
+
+                            
+Standards: HTML5, CSS3
+
+                            
+Components: bootstrap 4.
+
+                            
+Software: HTML,SASS, HarpJS
